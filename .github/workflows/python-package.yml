@@ -27,6 +27,10 @@ jobs:
             - name: Build binary wheel and a source tarball
               run: python3 setup.py sdist
 
+            - name: test
+              run: |
+                pip install devpi
+
             - name: Publish distribution to PyPI
               uses: pypa/gh-action-pypi-publish@master
               with: 
