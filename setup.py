@@ -1,7 +1,7 @@
 from setuptools import setup,find_packages
 
 setup(
-    name="streamingpackagetyler2",
+    name="streamingpackagetyler3",
     version="0.2.0",
     author="Tyler Huang",
     author_email="huangyue1752@gmail.com",
@@ -30,7 +30,7 @@ setup(
     ],
     entry_points={
         'console_scripts':[
-                'streamingpackagetyler2=src.main:main'
+                'streamingpackagetyler3=src.main:main'
         ]
     },
 )
