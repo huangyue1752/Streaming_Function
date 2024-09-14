@@ -1,5 +1,5 @@
-from shopify_copy import shopify_streamingdata_functin
-from weather_copy import weather_streaming
+from src.shopify_copy import shopify_streamingdata_functin
+from src.weather_copy import weather_streaming
 
 
 def main():
