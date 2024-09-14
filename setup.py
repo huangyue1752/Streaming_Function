@@ -1,7 +1,7 @@
 from setuptools import setup,find_packages
 
 setup(
-    name="streaming_package",
+    name="streamingpackage",
     version="0.1.0",
     author="Tyler Huang",
     author_email="huangyue1752@gmail.com",
