@@ -30,7 +30,8 @@ setup(
     ],
     entry_points={
         'console_scripts':[
-                'cs316-cli=cs316_package.command_line:main',
-        ],
+                'streamingpackagetyler=src.main:main'
+        ]
     },
 )
+
