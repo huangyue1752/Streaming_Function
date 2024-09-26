@@ -37,7 +37,7 @@ def weather_streamingdata_functin():
     async def run():
         while True:
             await asyncio.sleep(5)
-            producer=EventHubProducerClient.from_connection_string(conn_str='Endpoint=sb://streamingdata-demo-dev.servicebus.windows.net/;SharedAccessKeyName=weatherdata-policy;SharedAccessKey=y8tGytHlo6RMIIIyWSzJRONpl5wvr42Xn+AEhDyJg34=;EntityPath=weatherdata-streaming-demo-dev',eventhub_name='weatherdata-streaming-demo-dev')
+            producer=EventHubProducerClient.from_connection_string(conn_str='Endpoint=sb://streamingeventhubnamespace.servicebus.windows.net/;SharedAccessKeyName=streamingpolicy;SharedAccessKey=jLsmEQBqzbN4G6wB/96sk/NoppvB5DoTp+AEhCUatbQ=;EntityPath=streamingeventhubs',eventhub_name='streamingeventhubs')
             async with producer:
                 #Create a batch.
                 event_data_batch=await producer.create_batch()

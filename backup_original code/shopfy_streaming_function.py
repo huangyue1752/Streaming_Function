@@ -8,8 +8,6 @@ from azure.eventhub import EventData
 
 
 subscription_name='projects/wired-victor-432822-p3/subscriptions/demo1-sub'
-creds='demoCredential.json'
-os.environ['GOOGLE_APPLICATION_CREDENTIALS']=creds
 
 
 def shopify_streamingdata_functin():
